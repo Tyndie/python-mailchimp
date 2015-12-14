@@ -1,5 +1,5 @@
-from baseapi import BaseApi
-from feedback import Feedback
+from mailchimp3.baseapi import BaseApi
+from mailchimp3.entities.feedback import Feedback
 
 
 class Campaign(BaseApi):

@@ -1,5 +1,4 @@
-from mailchimp import MailChimp
-
+from mailchimp3 import MailChimp
 
 client = MailChimp('didierserrat', 'dde1a01e091c530def679e42f2390b46-us9')
 

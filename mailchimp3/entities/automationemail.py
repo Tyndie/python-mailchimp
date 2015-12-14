@@ -1,4 +1,4 @@
-from baseapi import BaseApi
+from mailchimp3.baseapi import BaseApi
 
 
 class AutomationEmail(BaseApi):

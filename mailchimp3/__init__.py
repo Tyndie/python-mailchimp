@@ -2,31 +2,31 @@
 Mailchimp v3 Api SDK
 
 """
-from mailchimpclient import MailChimpClient
-from entities.authorizedapp import AuthorizedApp
-from entities.automation import Automation
-from entities.message import Message
-from entities.campaign import Campaign
-from entities.report import Report
-from entities.feedback import Feedback
-from entities.conversation import Conversation
-from entities.listabuse import ListAbuse
-from entities.listactivity import ListActivity
-from entities.memberactivity import MemberActivity
-from entities.reportactivity import ReportActivity
-from entities.client import Client
-from entities.list import List
-from entities.growth import Growth
-from entities.template import Template
-from entities.interest import Interest
-from entities.category import Category
-from entities.goal import Goal
-from entities.member import Member
-from entities.reportabuse import ReportAbuse
-from entities.files import File
-from entities.automationemail import AutomationEmail
-from entities.automationemailqueue import AutomationEmailQueue
-from entities.automationeremovedsubscriber import AutomationRemovedSubscriber
+from mailchimp3.mailchimpclient import MailChimpClient
+from mailchimp3.entities.authorizedapp import AuthorizedApp
+from mailchimp3.entities.automation import Automation
+from mailchimp3.entities.message import Message
+from mailchimp3.entities.campaign import Campaign
+from mailchimp3.entities.report import Report
+from mailchimp3.entities.feedback import Feedback
+from mailchimp3.entities.conversation import Conversation
+from mailchimp3.entities.listabuse import ListAbuse
+from mailchimp3.entities.listactivity import ListActivity
+from mailchimp3.entities.memberactivity import MemberActivity
+from mailchimp3.entities.reportactivity import ReportActivity
+from mailchimp3.entities.client import Client
+from mailchimp3.entities.list import List
+from mailchimp3.entities.growth import Growth
+from mailchimp3.entities.template import Template
+from mailchimp3.entities.interest import Interest
+from mailchimp3.entities.category import Category
+from mailchimp3.entities.goal import Goal
+from mailchimp3.entities.member import Member
+from mailchimp3.entities.reportabuse import ReportAbuse
+from mailchimp3.entities.files import File
+from mailchimp3.entities.automationemail import AutomationEmail
+from mailchimp3.entities.automationemailqueue import AutomationEmailQueue
+from mailchimp3.entities.automationeremovedsubscriber import AutomationRemovedSubscriber
 
 
 class MailChimp(MailChimpClient):
